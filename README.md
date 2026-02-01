@@ -14,3 +14,13 @@ Target install:
 ```
 rustup target add wasm32-wasip1
 ```
+
+Kansei usage:
+```ruby
+load wasm::example
+Example = wasm.example
+puts Example.fastx_version()
+puts Example.fastx_add_i64(2, 3)
+puts Example.fastx_mul_f64(1.5, 4.0)
+puts Example.fastx_pow_f64(2.0, 3.0)
+```
