@@ -1,2 +1,2 @@
 # kansei-wasm-modules
-WASM Modules for Kansei. Install with kasei wasm install. Mostly Rust create wrapper, I guess.
+WASM Modules for Kansei. Install with kansei wasm install. Mostly Rust create wrapper, I guess.
