@@ -3,10 +3,10 @@ WASM modules for Kansei. Install with `kansei wasm install <name>`.
 
 ## example
 Example module with numeric exports:
-- `fastx_version()` -> i32
-- `fastx_add_i64(a, b)` -> i64
-- `fastx_mul_f64(a, b)` -> f64
-- `fastx_pow_f64(a, b)` -> f64
+- `example_version()` -> i32
+- `example_add_i64(a, b)` -> i64
+- `example_mul_f64(a, b)` -> f64
+- `example_pow_f64(a, b)` -> f64
 
 Build target: `wasm32-wasip1`.
 
@@ -19,10 +19,10 @@ Kansei usage:
 ```ruby
 load wasm::example
 Example = wasm.example
-puts Example.fastx_version()
-puts Example.fastx_add_i64(2, 3)
-puts Example.fastx_mul_f64(1.5, 4.0)
-puts Example.fastx_pow_f64(2.0, 3.0)
+puts Example.example_version()
+puts Example.example_add_i64(2, 3)
+puts Example.example_mul_f64(1.5, 4.0)
+puts Example.example_pow_f64(2.0, 3.0)
 ```
 
 ## meilisearch
